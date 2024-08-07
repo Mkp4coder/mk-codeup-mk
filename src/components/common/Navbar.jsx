@@ -18,7 +18,7 @@ const Navbar = () => {
   const { totalItems } = useSelector((state) => state.cart);
   const location = useLocation();
 
-  const [SubLinks, setSubLinks] = useState([]);
+  const [SubLinks, setSubLinks] = useState(["Android", "Full Stack Web Developemnt", "AI and ML"]);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
