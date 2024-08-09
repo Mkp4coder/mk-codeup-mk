@@ -46,7 +46,7 @@ app.use(
 
 // app.use(
 //   cors({
-//     origin: "https://mk-codezone.vercel.app", // or '*' to allow all origins
+//     origin: "https://mk-codeup-mk.vercel.app", // or '*' to allow all origins
 //   })
 // );
 
