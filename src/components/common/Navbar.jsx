@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect } from "react";
 import logo from "../../assets/Logo/Logo.png";
 import { Link, matchPath } from "react-router-dom";
@@ -19,11 +18,7 @@ const Navbar = () => {
   const { totalItems } = useSelector((state) => state.cart);
   const location = useLocation();
 
-  const [SubLinks, setSubLinks] = useState([
-    "Android",
-    "Full Stack Web Developemnt",
-    "AI and ML",
-  ]);
+  const [SubLinks, setSubLinks] = useState([]);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
